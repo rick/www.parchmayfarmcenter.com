@@ -21,12 +21,13 @@ filter:    haml
     
   %body
     .container.showgrid
-      .span-6.column.first.info-box-left
-        %a.content-link{:href => 'plan.html' } Plan
-      .span-12.column
-        %p.header 
-          %a{:href => '/'} ParchMay Farm Center
-      .span-6.column.last.info-box-right
-        %a.content-link{:href => 'show-support.html' } Show Your Support
+      .headline
+        .span-5.prepend-1.column.first.info-box-left
+          %a.content-link{:href => 'plan.html' } The Plan
+        .span-12.column
+          %p.header 
+            %a{:href => '/'} ParchMay Farm Center
+        .span-5.append-1.column.last.info-box-right
+          %a.content-link{:href => 'show-support.html' } Support
       .span-24.clear
         = @content

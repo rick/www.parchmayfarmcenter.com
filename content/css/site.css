@@ -19,16 +19,40 @@ body {
   font-family: Verdana, "Bitstream Vera Sans", sans-serif;
 }
 
+.headline {
+  height: 50px;
+  border-bottom: 2px solid white;
+  border-top: 3px solid #9999ff;
+  background-color: #3333ff;
+  color: white;
+}
+
+.headline a {
+  text-decoration: none;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.headline a:hover {
+  text-decoration: underline;
+}
+
 p.header {
   text-align: center;
+  font-size: 200%;
+  margin-top: 5px;
 }
 
 .info-box-left {
   text-align: left;
+  font-size: 130%;
+  margin-top: 10px;
 }
 
 .info-box-right {
   text-align: right;
+  font-size: 130%;
+  margin-top: 10px;
 }
 
 #content-area {
