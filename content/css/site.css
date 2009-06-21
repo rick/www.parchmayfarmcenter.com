@@ -31,8 +31,12 @@ p.header {
   text-align: right;
 }
 
+#content-area {
+  height: 400px;
+  overflow: auto;
+}
+
 table.master {
-  
 }
 
 table.grid {
@@ -76,26 +80,18 @@ table.grid td {
 
 .smart-growth-cell {
   background-color: #ff44ff;
-  
 }
 
 .facts-vs-myth-cell {
   background-color: #44ffff;
-  
 }
 
 .jobs-economics-cell {
-  background-color: #44ff44;
-  
+  background-color: #44ff44;  
 }
 
 .green-future-cell {
-  background-color: #ff4444;
-  
-}
-
-.other-cell {
-  background-image: url(http://www.rickbradley.com/images/karl.png);
+  background-color: #ff4444;  
 }
 
 /* EOF */
