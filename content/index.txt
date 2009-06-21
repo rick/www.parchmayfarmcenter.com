@@ -12,27 +12,27 @@ filter:    haml
           %tbody
             %tr
               %td.best-opportunity-cell.link-cell
-                blah
+                %a{ :href => 'best-opportunity.html' } Best Opportunity
               %td.empty-cell-1
                 blah
               %td.smart-growth-cell.link-cell
-                blah
+                %a{ :href => 'smart-growth.html' } Smart Growth
           %tbody
             %tr
               %td.empty-cell-2
                 blah
               %td.facts-vs-myth-cell.link-cell
-                blah
+                %a{ :href => 'facts-vs-myth.html' } Facts vs. Myth
               %td.empty-cell-3
                 blah
           %tbody
             %tr
-              %td.jobs-economies-cell.link-cell
-                blah
+              %td.jobs-economics-cell.link-cell
+                %a{ :href => 'jobs-economics.html' } Jobs and Economics
               %td.empty-cell-4
                 blah
               %td.green-future-cell.link-cell
-                blah
+                %a{ :href => 'green-future.html' } Green Future
       %td.span-12
-        .content-area
+        #content-area.span-12
           This is the content area
