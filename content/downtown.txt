@@ -3,15 +3,18 @@ extension: html
 filter:    haml
 layout:    nil
 ---
-%h1
-  Downtown
+#content-area.span-15
+  .content-label Downtown
+  .content-body
+    .content-holder
+      .content-text
 
-%h3   Downtown Problems, Corporate Solutions
+        %h3   Downtown Problems, Corporate Solutions
 
-%p
-  By a ratio of 10-to-1, office development over the last twenty years
-  has chosen non-downtown locations, especially those offering large,
-  campus / prison-style options.  If Nashville-Davidson County wants to
-  be considered as the home of the next Nissan, it will have to offer
-  places like the ParchMay Farm Center, the sort of place that corporate
-  America is looking for.
+        %p
+          By a ratio of 10-to-1, office development over the last twenty years
+          has chosen non-downtown locations, especially those offering large,
+          campus / prison-style options.  If Nashville-Davidson County wants to
+          be considered as the home of the next Nissan, it will have to offer
+          places like the ParchMay Farm Center, the sort of place that corporate
+          America is looking for.

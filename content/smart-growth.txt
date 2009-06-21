@@ -3,12 +3,16 @@ extension: html
 filter:    haml
 layout:    nil
 ---
-%h1
-  Smart Growth
+#content-area.span-15
+  .content-label Smart Growth
+  .content-body
+    .content-holder
+      .content-text
   
-%p
-  ParchMay Center embodies those elements that define "smart growth"  --
-  and then some!  Even our chart about our design principles is
-  well-designed.  Now that's smart.
+        %p
+          ParchMay Center embodies those elements that define "smart growth"  --
+          and then some!  Even our chart about our design principles is
+          well-designed.  Now that's smart.
   
-%img{:src => '/images/design-principles.png'}
+        .inline-image
+          %img{:src => '/images/design-principles.png'}

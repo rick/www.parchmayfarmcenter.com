@@ -4,51 +4,53 @@ extension: html
 filter:    haml
 ---
 
-%table.master{:cellspacing => '0'}
-  %tbody
-    %tr
-      %td.prepend-1.span-16
-        %table.grid{:cellspacing => '0'}
-          %tbody
-            %tr
-              %td.best-opportunity-cell.link-cell
-                %a{ :href => 'best-opportunity.html' }
-                  %img{ :src => '/images/best-opportunity.png'}
-              %td.empty-cell-1
-                blah
-              %td.smart-growth-cell.link-cell
-                %a{ :href => 'smart-growth.html' }
-                  %img{ :src => '/images/smart-growth.png'}
-          %tbody
-            %tr
-              %td.empty-cell-2
-                blah
-              %td.facts-vs-myth-cell.link-cell
-                %a{ :href => 'facts-vs-myth.html' }
-                  %img{ :src => '/images/facts-vs-myths.png'}
-              %td.empty-cell-3
-                blah
-          %tbody
-            %tr
-              %td.downtown-cell.link-cell
-                %a{ :href => 'downtown.html' }
-                  %img{ :src => '/images/downtown.png'}
-              %td.empty-cell-4
-                blah
-              %td.green-future-cell.link-cell
-                %a{ :href => 'green-future.html' }
-                  %img{ :src => '/images/green-future.png'}
-      %td.span-12
-        #content-area.span-12
-          %p Situated on the scenic site of the former Tennessee State Penitentiary, ParchMay Farm Center will grace 1200 acres along the banks of the Cumberland River in West Nashville.
+#grid.span-12
+  .prepend-1.span-12
+    .first.span-3.best-opportunity-cell.link-cell
+      %a{ :href => 'best-opportunity.html' }
+        %img{ :src => '/images/best-opportunity.png'}
+    .span-3.empty-cell-1
+      blah
+    .last.span-3.smart-growth-cell.link-cell
+      %a{ :href => 'smart-growth.html' }
+        %img{ :src => '/images/smart-growth.png'}
+  .prepend-1.span-12
+    .first.span-3.empty-cell-2
+      blah
+    .span-3.facts-vs-myth-cell.link-cell
+      %a{ :href => 'facts-vs-myth.html' }
+        %img{ :src => '/images/facts-vs-myths.png'}
+    .last.span-3.empty-cell-3
+      blah
+  .prepend-1.span-12
+    .first.span-3.downtown-cell.link-cell
+      %a{ :href => 'downtown.html' }
+        %img{ :src => '/images/downtown.png'}
+    .span-3.empty-cell-4
+      blah
+    .last.span-3.green-future-cell.link-cell
+      %a{ :href => 'green-future.html' }
+        %img{ :src => '/images/green-future.png'}
 
-          %p Features include:
-          
-          %ul
-            %li Convenient access to underutilized Briley Parkway
-            %li John C. Tune airport within walking distance
-            %li Very few currently documented ancient burial sites
-            %li Undisclosed number of bridges not necessarily required
-            %li Site of filming of several major motion pictures
+#content-area.span-15
+  .content-label  ParchMay Farm Center
+  .content-body
+    .content-holder
+      .content-text
+        %p 
+          Situated on the scenic site of the former Tennessee State Penitentiary, 
+          ParchMay Farm Center will grace 1200 acres along the banks of the Cumberland River in West Nashville.
 
-          %p ParchMay Farm Center is what we like to call a 21st century realization of the 19th century vision of corrective incarceration.  What better place to arrest corporate flight than a place that stopped criminal flight for nearly 100 years?  ParchMay Farm Center: we've got Nashville's smart growth all locked up.
+        %p Features include:
+
+        %ul
+          %li Convenient access to underutilized Briley Parkway
+          %li John C. Tune airport within walking distance
+          %li Very few currently documented ancient burial sites
+          %li Undisclosed number of bridges not necessarily required
+          %li Site of filming of several major motion pictures
+
+        %p 
+          ParchMay Farm Center is what we like to call a 21st century realization of the 19th century vision of corrective incarceration.
+          What better place to arrest corporate flight than a place that stopped criminal flight for nearly 100 years?  
+          ParchMay Farm Center: we've got Nashville's smart growth all locked up.

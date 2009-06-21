@@ -45,11 +45,47 @@ body {
   text-decoration: underline;
 }
 
+
+#grid {
+}
+
+#content-area {
+  margin-bottom: 30px;
+}
+
+.content-label {
+  margin: 0px;
+  padding: 10px;
+  background-color: #74a36e;
+  color: white;
+  opacity: 0.8;
+}
+
+.content-body {
+  height: 400px;
+  overflow: auto;
+}
+
+.content-holder {
+  background-image: url('/images/greenery.png');
+  border: 1px solid white;
+}
+
+.content-text {
+  margin: 1em;
+  padding: 1em;
+  border: 1px solid white;    
+  background-color: #74a36e;
+  color: #ffffff;
+  opacity: 0.9;
+}
+
 .footer {
   border-bottom: 100px solid black;
   background-image: url('/images/footer-slice.png');
   background-repeat: repeat-x;
-  color: white;  
+  color: white;
+  margin-top: 500px;
 }
 
 .credits {
@@ -74,29 +110,7 @@ p.header {
   margin-top: 10px;
 }
 
-#content-area {
-  background-color: #77dddd;
-  height: 400px;
-  overflow: auto;
-}
-
-table.master {
-}
-
-table.grid {
-	border-spacing: 0px;
-	border-collapse: collapse;
-}
-
-table.grid td {
-	border-width: 0px 0px 0px 0px;
-	padding: 0px;
-	margin: 0px;
-	border-style: solid solid solid solid;
-	border-color: green green green green;
-	-moz-border-radius: 0px 0px 0px 0px;
-/*  height: 140px;
-  width: 120px; */
+.inline-image {
   text-align: center;
 }
 

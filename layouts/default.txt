@@ -24,13 +24,13 @@ filter:    haml
       .headline
         .span-5.prepend-1.column.first.info-box-left
           %a.content-link{:href => 'plan.html' } THE PLAN
-        .span-12.column
+        .span-16.column
           %p.header 
             %a{:href => '/'} PARCHMAY FARM CENTER
         .span-5.append-1.column.last.info-box-right
           %a.content-link{:href => 'show-support.html' } SUPPORT
-      .span-24.clear
+      .content-wrapper
         = @content
       .footer.span-30
-        .credits.span-23
+        .credits.span-27
           %a.content-link{:href => 'credits.html' } credits
