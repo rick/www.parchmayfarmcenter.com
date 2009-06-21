@@ -19,9 +19,13 @@ filter:    haml
     %script{ :src=> "/javascripts/jquery.form.js", :type => "text/javascript" }
     
   %body
-    .container
-      .column.span-22.prepend-0.append-2.first.last#header
+    .container.showgrid
+      .span-6.column.first.info-box-left
+        %a.content-link{:href => 'plan.html' } Plan
+      .span-12.column
         %p.header 
           %a{:href => '/'} ParchMay Farm Center
+      .span-6.column.last.info-box-right
+        %a.content-link{:href => 'show-support.html' } Show Your Support
+      .span-24.clear
         = @content
-      .column.span-22.prepend-0.append-2.first.last

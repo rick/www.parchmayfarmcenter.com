@@ -4,13 +4,13 @@ extension: html
 filter:    haml
 ---
 
-%table
+%table{:cellspacing => '0'}
   %tbody
     %tr
       %td
         /
           left-side image grid
-        %table
+        %table{:cellspacing => '0'}
           %tbody
             %tr
               %td
