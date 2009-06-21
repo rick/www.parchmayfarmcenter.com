@@ -33,7 +33,7 @@ filter:    haml
         %img{ :src => '/images/green-future.png'}
 
 #content-area.span-15
-  .content-label  ParchMay Farm Center
+  .content-label  PARCHMAY FARM CENTER
   .content-body
     .content-holder
       .content-text

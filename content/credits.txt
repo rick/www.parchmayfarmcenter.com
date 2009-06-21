@@ -4,9 +4,23 @@ filter:    haml
 layout:    nil
 ---
 #content-area.span-15
-  .content-label Credit Where Credit is Due
+  .content-label CREDIT WHERE CREDIT IS DUE
   .content-body
     .content-holder
       .content-text
 
-        Thanks, bitches.
+        %p
+          We'd like to thank the following gracious folks, without whom none of this would be possible:
+        
+        %ul
+          %li
+            %a{:href => 'http://www.flickr.com/photos/exothermic/'} Exothermic
+            \- for the beautiful Creative Commons licensed photos of the Tennessee State Penitentiary.
+          %li
+            %a{:href => 'http://www.flickr.com/photos/grovesa16/'} Grovesa16 
+            \- for yet more beautiful Creative Commons licensed photos of the Tennessee State Penitentiary.
+          %li  
+            %a{:href => 'http://www.photoshoptextures.com/'} Photoshop Textures
+            \- for the blades of grass which make PMFC so *green*.
+
+        Thanks.

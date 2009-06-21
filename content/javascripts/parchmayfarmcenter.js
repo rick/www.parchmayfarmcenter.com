@@ -3,12 +3,7 @@ jQuery(function($) {
 //    
 //  });
 
-  $('.link-cell a').click(function(event) { 
-    event.preventDefault();
-    $('#content-area').load(this.href);
-  });
-
-  $('a.content-link').click(function(event) { 
+  $('.link-cell a, a.content-link').click(function(event) { 
     event.preventDefault();
     $('#content-area').load(this.href);
   });

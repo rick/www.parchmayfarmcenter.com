@@ -4,13 +4,18 @@ filter:    haml
 layout:    nil
 ---
 #content-area.span-15
-  .content-label  Green Future
+  .content-label  GREEN FUTURE
   .content-body
     .content-holder
       .content-text
   
-        %p Developers are often required to make the land fit the project, but ParchMay Farm Center is designed to fit the land (and the large former prison at the center of the site).  ParchMay Farm will be nestled among rolling hills and buffered streams, avoiding steep slopes and preserving the banks of the Cumberland River for agricultural / escape purposes.
-        %h3 Green Future, Green Past
+        %p 
+          Developers are often required to make the land fit the project, but ParchMay Farm Center is designed to fit
+          the land (and the large former prison at the center of the site).  ParchMay Farm will be nestled among rolling 
+          hills and buffered streams, avoiding steep slopes and preserving the banks of the Cumberland River for 
+          agricultural / escape purposes.
+        
+        .label Green Future, Green Past
         %p 
           ParchMay Farm Center site is already so green, they filmed a movie about it.  Ever hear of 
           %em The Green Mile?

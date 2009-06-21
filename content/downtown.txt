@@ -4,12 +4,12 @@ filter:    haml
 layout:    nil
 ---
 #content-area.span-15
-  .content-label Downtown
+  .content-label DOWNTOWN
   .content-body
     .content-holder
       .content-text
 
-        %h3   Downtown Problems, Corporate Solutions
+        .label Downtown Problems, Corporate Solutions
 
         %p
           By a ratio of 10-to-1, office development over the last twenty years
