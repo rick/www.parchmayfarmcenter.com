@@ -23,7 +23,7 @@ body {
 
 .pagebody {
   background-image: url('/images/fuzzyparchmayfarmcenter.png');
-/*   background-repeat: no-repeat; */
+  background-repeat: no-repeat
 }
 
 .headline {
@@ -115,19 +115,19 @@ p.header {
 }
 
 .empty-cell-1 {
-  opacity: 0.3;
+  opacity: 0.2;
 }
 
 .empty-cell-2 {
-  opacity: 0.3;
+  opacity: 0.2;
 }
 
 .empty-cell-3 {
-  opacity: 0.3;
+  opacity: 0.2;
 }
 
 .empty-cell-4 {
-  opacity: 0.3;
+  opacity: 0.2;
 }
 
 .best-opportunity-cell {
