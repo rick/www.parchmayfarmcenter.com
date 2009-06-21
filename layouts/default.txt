@@ -20,16 +20,17 @@ filter:    haml
     %script{ :src=> "/javascripts/parchmayfarmcenter.js", :type => "text/javascript" }
     
   %body
-    .container.showgrid
+    .container.showgrid.pagebody
       .headline
         .span-5.prepend-1.column.first.info-box-left
-          %a.content-link{:href => 'plan.html' } The Plan
+          %a.content-link{:href => 'plan.html' } THE PLAN
         .span-12.column
           %p.header 
-            %a{:href => '/'} ParchMay Farm Center
+            %a{:href => '/'} PARCHMAY FARM CENTER
         .span-5.append-1.column.last.info-box-right
-          %a.content-link{:href => 'show-support.html' } Support
+          %a.content-link{:href => 'show-support.html' } SUPPORT
       .span-24.clear
         = @content
-    .photo-credits
-      %a{:href => photo-credits.html } photo credits
+      .footer.span-30
+        .credits.span-23
+          %a.content-link{:href => 'credits.html' } credits

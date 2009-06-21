@@ -7,4 +7,9 @@ jQuery(function($) {
     event.preventDefault();
     $('#content-area').load(this.href);
   });
+
+  $('a.content-link').click(function(event) { 
+    event.preventDefault();
+    $('#content-area').load(this.href);
+  });
 });

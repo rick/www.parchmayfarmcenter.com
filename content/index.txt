@@ -7,7 +7,7 @@ filter:    haml
 %table.master{:cellspacing => '0'}
   %tbody
     %tr
-      %td.span-12
+      %td.prepend-1.span-16
         %table.grid{:cellspacing => '0'}
           %tbody
             %tr
