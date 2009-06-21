@@ -1,0 +1,14 @@
+---
+extension: html
+filter:    haml
+layout:    nil
+---
+%h1
+  The Plan
+%ul
+  %li
+    %a.planlink{:href => 'phase1.html'} Phase 1
+  %li
+    %a.planlink{:href => 'phase2.html'} Phase 2
+  %li
+    %a.planlink{:href => 'phase3.html'} Phase 3
