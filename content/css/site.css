@@ -118,4 +118,19 @@ table.grid td {
   background-color: #ff4444;  
 }
 
+.label {
+  font-weight: bold;
+}
+
+ul.myths {
+  border: 3px solid #aaddaa;
+  margin: 5px;
+  padding: 5px;
+  text-size: small;
+}
+
+ul.myths li {
+  list-style: none;
+  margin-bottom: 3px;
+}
 /* EOF */

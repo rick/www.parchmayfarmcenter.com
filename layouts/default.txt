@@ -31,3 +31,5 @@ filter:    haml
           %a.content-link{:href => 'show-support.html' } Support
       .span-24.clear
         = @content
+    .photo-credits
+      %a{:href => photo-credits.html } photo credits

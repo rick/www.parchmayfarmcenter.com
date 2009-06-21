@@ -5,3 +5,28 @@ layout:    nil
 ---
 %h1
   Facts vs. Myths
+
+%ul.myths
+  %li
+    %span.label Myth: 
+    ParchMay Farm Center is a great idea, but the former Tennessee State Penitentiary is the wrong place for it.
+  %li
+    %span.label Fact:
+    ParchMay Farm Center is an idea whose time and place have come.  What better place to stop corporate flight than a site that stopped criminal flight for nearly one hundred years?
+
+%ul.myths
+  %li
+    %span.label Myth: 
+    ParchMay Farm Center is incompatible with the Reston-inspired "Glass-Walled Skyscrapers Overlooking Big Pools of Water With People in Suits Walking Around, But Only Until 5 PM, When They All Leave" vision.
+  %li
+    %span.label Fact:
+    Some people claim their hopes to build a second Reston in the middle of a cow field will be dashed if they can't pave over half of Bells Bend.  Well, it is true: ParchMay Farm Center won't involve paving over half of Bells Bend.  But people who love pouring concrete, seeing their reflection in big shiny glass-walled buildings, walking around in suits, or leaving at 5 pm will still find plenty to entice them in ParchMay Farm Center.
+
+%ul.myths
+  %li
+    %span.label Myth: 
+    This project will destroy the last remaining former state penitentiary in Tennessee.
+  %li
+    %span.label Fact:
+    On the contrary, through the 8 bajillion dollars in additional tax revenues ParchMay Farm Center is expected to bring in each year, this project will help Tennessee maintain its industrial-prison complex for years to come!
+
