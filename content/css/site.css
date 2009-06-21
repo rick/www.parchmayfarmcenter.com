@@ -115,23 +115,19 @@ p.header {
 }
 
 .empty-cell-1 {
-  background-image: url('/images/empty-placeholder.png');
-  background-repeat: no-repeat;
+  opacity: 0.3;
 }
 
 .empty-cell-2 {
-  background-image: url('/images/empty-placeholder.png');
-  background-repeat: no-repeat;
+  opacity: 0.3;
 }
 
 .empty-cell-3 {
-  background-image: url('/images/empty-placeholder.png');
-  background-repeat: no-repeat;
+  opacity: 0.3;
 }
 
 .empty-cell-4 {
-  background-image: url('/images/empty-placeholder.png');
-  background-repeat: no-repeat;
+  opacity: 0.3;
 }
 
 .best-opportunity-cell {
