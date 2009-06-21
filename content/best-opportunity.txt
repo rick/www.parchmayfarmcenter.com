@@ -5,3 +5,17 @@ layout:    nil
 ---
 %h1
   Nashville's Best Opportunity
+  
+%p
+  ParchMay Farm Center is an historic project in the storied history of
+  Nashville, a model of sustainable economic redevelopment right smack
+  dab in the middle of an old, castle-y looking former prison.  It's
+  about jobs, working with nature (and possibly ghosts, but heck, they
+  just add character, right?), fighting sprawl, paying homage to both
+  the prison-industrial complex and gated communities, celebrating the
+  underutilized west side of Briley Parkway, and just generally making
+  bank.  And helping out Nashville!  Did we mention that?  You thought
+  The Green Mile and The Last Castle were awesome?  Think about how many
+  movies are going to be filmed here now that we're going to build
+  corporate campuses, retail space, and housing on the old Tennessee
+  State Penitentiary site.

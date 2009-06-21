@@ -6,33 +6,9 @@ layout:    nil
 %h1
   Smart Growth
   
-  %br
-  %br
-  %br
-  %br
-  %br
-  %br
-  %br
-  %br
-  %br
-  %br
-  %br
-  %br
-  %br
-  %br
-  %br
-  %br
-  %br
-  %br
-  %br
-  %br
-  %br
-  %br
-  %br
-  %br
-  %br
-  %br
-  %br
-  %br
-  %br
+%p
+  ParchMay Center embodies those elements that define "smart growth"  --
+  and then some!  Even our chart about our design principles is
+  well-designed.  Now that's smart.
   
+%img{:src => '/images/design-principles.png'}

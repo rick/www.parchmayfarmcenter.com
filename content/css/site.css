@@ -84,58 +84,55 @@ table.master {
 }
 
 table.grid {
-	border-width: thick thick thick thick;
-	border-spacing: 4px;
-	border-style: solid solid solid solid;
-	border-color: red red red red;
+	border-spacing: 0px;
 	border-collapse: collapse;
-	background-color: white;
 }
 
 table.grid td {
 	border-width: 0px 0px 0px 0px;
-	padding: 5px 5px 5px 5px;
+	padding: 0px;
+	margin: 0px;
 	border-style: solid solid solid solid;
 	border-color: green green green green;
 	-moz-border-radius: 0px 0px 0px 0px;
-  height: 140px;
-  width: 120px;
+/*  height: 140px;
+  width: 120px; */
+  text-align: center;
 }
 
 .empty-cell-1 {
-  background-color: #000044;
+  background-image: url('/images/empty-placeholder.png');
+  background-repeat: no-repeat;
 }
 
 .empty-cell-2 {
-  background-color: #440000;  
+  background-image: url('/images/empty-placeholder.png');
+  background-repeat: no-repeat;
 }
 
 .empty-cell-3 {
-  background-color: #004400;
+  background-image: url('/images/empty-placeholder.png');
+  background-repeat: no-repeat;
 }
 
 .empty-cell-4 {
-  background-color: #220022;  
+  background-image: url('/images/empty-placeholder.png');
+  background-repeat: no-repeat;
 }
 
 .best-opportunity-cell {
-  background-color: #ffff44;
 }
 
 .smart-growth-cell {
-  background-color: #ff44ff;
 }
 
 .facts-vs-myth-cell {
-  background-color: #44ffff;
 }
 
-.jobs-economics-cell {
-  background-color: #44ff44;  
+.downtown-cell {
 }
 
 .green-future-cell {
-  background-color: #ff4444;  
 }
 
 .label {
