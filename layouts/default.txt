@@ -21,8 +21,7 @@ filter:    haml
   %body
     .container
       .column.span-22.prepend-0.append-2.first.last#header
-        %p.title 
+        %p.header 
           %a{:href => '/'} ParchMay Farm Center
-        %hr
         = @content
       .column.span-22.prepend-0.append-2.first.last
