@@ -52,12 +52,5 @@ layout:    nil
 
         %br
         %br
-        %br
-        %br
-        %br
-        %br
-        %br
-        %br
-        %br
         
   = render(:partial => 'content-footer', :locals => { :cause => "Giving Credit Where It's Due" })    
