@@ -16,25 +16,6 @@ layout:    nil
   .content-body
     .content-holder
       .content-text
-  
-        %p
-          Fools.
-
-        %br
-        %br
-        %br
-        %br
-        %br
-        %br
-        %br
-        %br
-        %br
-        %br
-        %br
-        %br
-        %br
-        %br
-        %br
-        %br
+        %iframe{ :src => "http://spreadsheets.google.com/embeddedform?key=reoKnlcov0WECNMoxEuy1Vw", :width => "500", :height => "650", :frameborder => "0", :marginheight => "0", :marginwidth => "0"} Loading...
             
   = render(:partial => 'content-footer', :locals => { :cause => 'the pointless use of recursion' })    

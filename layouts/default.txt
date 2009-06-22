@@ -25,7 +25,7 @@ filter:    haml
       var pageTracker = _gat._getTracker("UA-9435736-1");
       pageTracker._trackPageview();
       } catch(err) {}
-  %body
+  %body  
     .container.showgrid.pagebody
       .headline
         .span-5.prepend-1.column.first.info-box-left
