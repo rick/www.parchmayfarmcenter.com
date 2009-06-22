@@ -1,7 +1,0 @@
----
-extension: html
-filter:    haml
-layout:    nil
----
-%h1
-  Phase 3

@@ -21,11 +21,14 @@ layout:    nil
 
         %ul
           %li
-            %a.phase1-link{:href => '/phase1.html'} Phase 1
+            %a.phase-link{:href => '/phase1-grid.html'} Phase 1
+            \-- Situate new ParchMay Farm Center on the site of old Tennessee State Penitentiary
           %li
-            %a.phase2-link{:href => '/phase2.html'} Phase 2
+            %a.phase-link{:href => '/phase2-grid.html'} Phase 2 
+            \-- ???
           %li
-            %a.phase3-link{:href => '/phase3.html'} Phase 3
+            %a.phase-link{:href => '/phase3-grid.html'} Phase 3 
+            \-- PROFIT!
 
         %br
         %br

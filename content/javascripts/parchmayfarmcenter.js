@@ -26,4 +26,10 @@ jQuery(function($) {
     $('#grid').load('/home-grid.html');
     $('#content-area').load('/home-contents.html');
   });
+
+  // "planning phase" links
+  $('a.phase-link').livequery('click', function (event) { 
+    event.preventDefault();
+    $('#grid').load(this.href);
+  });
 });
