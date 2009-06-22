@@ -1,0 +1,8 @@
+---
+extension: html
+filter:    haml
+layout:    nil
+---
+#grid.span-12
+  .grid-body.prepend-1.span-12
+    %img{:src => '/images/parchmayfarmcenter.png' }

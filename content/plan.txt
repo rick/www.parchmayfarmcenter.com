@@ -3,12 +3,26 @@ extension: html
 filter:    haml
 layout:    nil
 ---
-%h1
-  The Plan
-%ul
-  %li
-    %a.planlink{:href => 'phase1.html'} Phase 1
-  %li
-    %a.planlink{:href => 'phase2.html'} Phase 2
-  %li
-    %a.planlink{:href => 'phase3.html'} Phase 3
+#content-area.span-15
+  .content-label 
+    THE PLAN   
+    &nbsp;
+    &nbsp;
+    \.............................................................................................
+    &nbsp;
+    &nbsp;
+    %a.home-link{ :href => '/' } close [x]
+
+  .content-body
+    .content-holder
+      .content-text
+  
+        %p
+
+        %ul
+          %li
+            %a.phase1-link{:href => '/phase1.html'} Phase 1
+          %li
+            %a.phase2-link{:href => '/phase2.html'} Phase 2
+          %li
+            %a.phase3-link{:href => '/phase3.html'} Phase 3
