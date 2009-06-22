@@ -27,6 +27,12 @@ layout:    nil
           %li
             %a{:href => 'http://www.flickr.com/photos/grovesa16/'} Grovesa16 
             \- for yet more beautiful Creative Commons licensed photos of the Tennessee State Penitentiary.
+          %li
+            %a{:href => 'http://www.flickr.com/photos/mklingo/'} Max Klingensmith 
+            \- for his beautiful photo of construction.
+          %li
+            %a{:href => 'http://www.flickr.com/photos/sgw/'} Steve Wampler
+            \- for his wonderful photo of cash money.
           %li  
             %a{:href => 'http://www.photoshoptextures.com/'} Photoshop Textures
             \- for the blades of grass which make PMFC so *green*.
