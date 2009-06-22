@@ -71,7 +71,7 @@ body {
 }
 
 .content-body {
-  height: 400px;
+  height: 375px;
   overflow: auto;
 }
 
@@ -89,12 +89,30 @@ body {
   opacity: 0.8;
 }
 
+.content-footer {
+  margin: 0px;
+  padding: 10px;
+  background-color: #74a36e;
+  color: white;
+  opacity: 0.8;
+  border-top: 2px solid white;
+}
+
+.content-link {
+  text-decoration: none;
+  color: white;
+}
+
+.content-link:hover {
+  text-decoration: underline;
+}
+
 .footer {
   border-bottom: 100px solid black;
   background-image: url('/images/footer-slice.png');
   background-repeat: repeat-x;
   color: white;
-  margin-top: 500px;
+  margin-top: 450px;
 }
 
 .credits {
@@ -139,21 +157,6 @@ p.header {
   opacity: 0.2;
 }
 
-.best-opportunity-cell {
-}
-
-.smart-growth-cell {
-}
-
-.facts-vs-myth-cell {
-}
-
-.downtown-cell {
-}
-
-.green-future-cell {
-}
-
 .label {
   font-weight: bold;
   margin-bottom: 1ex;
@@ -169,6 +172,9 @@ a.home-link:hover {
   text-decoration: underline;
 }
 
+a.home-link img {
+  vertical-align: sub;
+}
 
 ul.myths {
   border: 3px solid #aaddaa;
@@ -180,5 +186,9 @@ ul.myths {
 ul.myths li {
   list-style: none;
   margin-bottom: 3px;
+}
+
+.support-gadget {
+  text-align: left;
 }
 /* EOF */

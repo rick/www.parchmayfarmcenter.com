@@ -28,4 +28,15 @@ layout:    nil
           ParchMay Farm Center site is already so green, they filmed a movie about it.  Ever hear of 
           %em The Green Mile?
           Yeah, we thought so.
+        %br
+        %br
+        %br
+        %br
+        %br
+        %br
+        %br
+        %br
+        
+  = render(:partial => 'content-footer', :locals => { :cause => '"Dead Man Walking" to work' })    
+
 

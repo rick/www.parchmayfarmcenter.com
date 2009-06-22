@@ -24,3 +24,6 @@ layout:    nil
   
         .inline-image
           %img{:src => '/images/design-principles.png'}
+          
+  
+  = render(:partial => 'content-footer', :locals => { :cause => 'L33T Certification' })    

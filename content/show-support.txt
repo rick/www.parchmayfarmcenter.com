@@ -19,3 +19,22 @@ layout:    nil
   
         %p
           Fools.
+
+        %br
+        %br
+        %br
+        %br
+        %br
+        %br
+        %br
+        %br
+        %br
+        %br
+        %br
+        %br
+        %br
+        %br
+        %br
+        %br
+            
+  = render(:partial => 'content-footer')    

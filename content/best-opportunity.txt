@@ -13,11 +13,10 @@ layout:    nil
     &nbsp;
     &nbsp;
     %a.home-link{ :href => '/' } close [x]
-    
+
   .content-body
     .content-holder
-      .content-text
-  
+      .content-text  
         %p
           ParchMay Farm Center is an historic project in the storied history of
           Nashville, a model of sustainable economic redevelopment right smack
@@ -31,3 +30,13 @@ layout:    nil
           movies are going to be filmed here now that we're going to build
           corporate campuses, retail space, and housing on the old Tennessee
           State Penitentiary site.
+        
+        %br
+        %br
+        %br
+        %br
+        %br
+        %br
+        %br
+
+  = render(:partial => 'content-footer', :locals => { :cause => 'Awesomeness in Nashville'})    

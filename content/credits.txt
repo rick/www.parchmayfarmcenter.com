@@ -30,5 +30,34 @@ layout:    nil
           %li  
             %a{:href => 'http://www.photoshoptextures.com/'} Photoshop Textures
             \- for the blades of grass which make PMFC so *green*.
-
+          %li  
+            %a{:href => 'http://www.flickr.com/photos/erlones/'} Erlones
+            \- for the little house, which we remixed for our icon.
+          %li
+            Our homies behind
+            %a{:href => 'http://webby.rubyforge.org/'} webby,
+            %a{:href => 'http://github.com'} github,
+            %a{:href => 'http://jquery.com'} jQuery,
+            and
+            %a{:href => 'http://ruby-lang.org/'} ruby
+            without whom this would be some tedious flash-ass bullshit.
+            
+          %li
+            And, of course, all the shills, liars, wankers, dirty politicians, fat-cats, and grifters responsible for the
+            worst idea ever to hit Nashville, TN -- the "May Town Center".  May your PR firms continue to be hacks, your 
+            zoning requests be denied, and your sensitive archeological sites be many.
+            
+            
         Thanks.
+
+        %br
+        %br
+        %br
+        %br
+        %br
+        %br
+        %br
+        %br
+        %br
+        
+  = render(:partial => 'content-footer', :locals => { :cause => "Giving Credit Where It's Due" })    

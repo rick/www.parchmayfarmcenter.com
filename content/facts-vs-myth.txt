@@ -49,3 +49,6 @@ layout:    nil
             is expected to bring in each year, this project will help Tennessee maintain its prison-industrial
             complex for years to come!
 
+            
+  = render(:partial => 'content-footer', :locals => { :cause => 'Leaving Alcatraz at 5pm'})    
+

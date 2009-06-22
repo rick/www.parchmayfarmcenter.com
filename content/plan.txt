@@ -26,3 +26,19 @@ layout:    nil
             %a.phase2-link{:href => '/phase2.html'} Phase 2
           %li
             %a.phase3-link{:href => '/phase3.html'} Phase 3
+
+        %br
+        %br
+        %br
+        %br
+        %br
+        %br
+        %br
+        %br
+        %br
+        %br
+        %br
+        %br
+        %br
+    
+  = render(:partial => 'content-footer')    

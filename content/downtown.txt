@@ -26,3 +26,16 @@ layout:    nil
           be considered as the home of the next Nissan, it will have to offer
           places like the ParchMay Farm Center, the sort of place that corporate
           America is looking for.
+          
+        %br          
+        %br          
+        %br          
+        %br          
+        %br          
+        %br          
+        %br          
+        %br          
+        %br          
+        %br          
+        %br          
+  = render(:partial => 'content-footer', :locals => {:cause => 'the Prison-Industrial Complex'})    

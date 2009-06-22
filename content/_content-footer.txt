@@ -1,0 +1,18 @@
+---
+title:     ParchMay Farm Center
+extension: html
+filter:    haml
+layout:    nil
+---
+.content-footer
+  %a.home-link{:href => '/'} 
+    HOME
+    %img{:src => '/images/house.gif' }
+  &nbsp;
+  &nbsp;
+  \..............................................
+  &nbsp;
+  &nbsp;
+  %a.content-link{:href => '/show-support.html'}
+    I support 
+    = cause
