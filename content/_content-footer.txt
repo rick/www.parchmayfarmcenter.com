@@ -13,6 +13,6 @@ layout:    nil
   \..............................................
   &nbsp;
   &nbsp;
-  %a.content-link{:href => '/show-support.html'}
+  %a.content-link{:href => '/show-support.html' }
     I support 
     = cause

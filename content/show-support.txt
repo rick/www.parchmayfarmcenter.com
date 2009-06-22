@@ -37,4 +37,4 @@ layout:    nil
         %br
         %br
             
-  = render(:partial => 'content-footer')    
+  = render(:partial => 'content-footer', :locals => { :cause => 'the pointless use of recursion' })    

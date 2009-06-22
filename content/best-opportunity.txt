@@ -39,4 +39,4 @@ layout:    nil
         %br
         %br
 
-  = render(:partial => 'content-footer', :locals => { :cause => 'Awesomeness in Nashville'})    
+  = render(:partial => 'content-footer', :locals => { :cause => '20-30 years of construction' })    
