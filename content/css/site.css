@@ -18,7 +18,7 @@ color:
 body {
   font-family: Verdana, "Bitstream Vera Sans", sans-serif;
   background-color: black;
-  overflow: hidden;
+  overflow: auto;
 }
 
 .pagebody {
