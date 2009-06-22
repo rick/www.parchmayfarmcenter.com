@@ -1,13 +1,4 @@
 
- - make credits link white, etc.
- - put boundary on bottom of content area
- - make appropriate images for each link
- - put together more sophisticated "plan" content
+ - build "plan" page
  - build "support" page
- - orange menu bar for mirroring 5 links as a menu? (with jquery synchronization)
-
- - convert heading text to images?
- - add hover versions of heading images with underlines?
- - drop shadowy crap?
- - trim right side of background down to match text width?
- 
+ - google analytics
