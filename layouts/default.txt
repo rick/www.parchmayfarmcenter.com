@@ -17,7 +17,7 @@ filter:    haml
     %script{ :src=> "/javascripts/jquery.livequery.js", :type => "text/javascript" }
     %script{ :src=> "/javascripts/jquery.form.js", :type => "text/javascript" }
     %script{ :src=> "/javascripts/parchmayfarmcenter.js", :type => "text/javascript" }
-    
+    %script{ :src=> "/javascripts/ga.js", :type => "text/javascript" }
   %body
     .container.showgrid.pagebody
       .headline
