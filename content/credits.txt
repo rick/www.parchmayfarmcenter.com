@@ -33,7 +33,10 @@ layout:    nil
           %li
             %a{:href => 'http://www.flickr.com/photos/sgw/'} Steve Wampler
             \- for his wonderful Creative Commons licensed photo of cash money.
-          %li  
+          %li
+            %a{:href => 'http://www.flickr.com/photos/minusman/'} Minusman
+            \- for the wonderful Creative Commons licensed photo of love letters.
+          %li
             %a{:href => 'http://www.photoshoptextures.com/'} Photoshop Textures
             \- for the blades of grass which make PMFC so *green*.
           %li  
