@@ -2,6 +2,6 @@
 title:       ParchMay Farm Center
 extension: html
 filter:    haml
+layout:    nil
 ---
-= render(:partial => 'home-grid')
 = render(:partial => 'home-contents')

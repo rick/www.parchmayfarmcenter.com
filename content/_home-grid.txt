@@ -1,0 +1,33 @@
+---
+title:     ParchMay Farm Center
+extension: html
+filter:    haml
+layout:    nil
+---
+#grid.span-12
+  .prepend-1.span-12
+    .first.span-3.best-opportunity-cell.link-cell
+      %a{ :href => 'best-opportunity.html' }
+        %img{ :src => '/images/best-opportunity.png'}
+    .span-3.empty-cell-1
+      %img{ :src => '/images/empty-cell.png' }
+    .last.span-3.smart-growth-cell.link-cell
+      %a{ :href => 'smart-growth.html' }
+        %img{ :src => '/images/smart-growth.png'}
+  .prepend-1.span-12
+    .first.span-3.empty-cell-2
+      %img{ :src => '/images/empty-cell.png' }
+    .span-3.facts-vs-myth-cell.link-cell
+      %a{ :href => 'facts-vs-myth.html' }
+        %img{ :src => '/images/facts-vs-myths.png'}
+    .last.span-3.empty-cell-3
+      %img{ :src => '/images/empty-cell.png' }
+  .prepend-1.span-12
+    .first.span-3.downtown-cell.link-cell
+      %a{ :href => 'downtown.html' }
+        %img{ :src => '/images/downtown.png'}
+    .span-3.empty-cell-4
+      %img{ :src => '/images/empty-cell.png' }
+    .last.span-3.green-future-cell.link-cell
+      %a{ :href => 'green-future.html' }
+        %img{ :src => '/images/green-future.png'}
